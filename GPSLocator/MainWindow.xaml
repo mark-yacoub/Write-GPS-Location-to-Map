@@ -1,0 +1,10 @@
+﻿<Window x:Class="GPSLocator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:windowsPresentation="clr-namespace:GMap.NET.WindowsPresentation;assembly=GMap.NET.WindowsPresentation"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <windowsPresentation:GMapControl x:Name="mx_map"/>
+        <StackPanel x:Name="mx_comPortsPanels" />
+    </Grid>
+</Window>
